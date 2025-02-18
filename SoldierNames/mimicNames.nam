@@ -1,0 +1,13 @@
+# all soldier classes get their own name files
+# this name file exists to fix a log entry for STR_SOLDIER_MIMIC
+# "total soldier name pool weight is invalid. Forgotten 'soldierNames:' ?"
+# https://github.com/MeridianOXC/OpenXcom/commit/fdb134ed9c0e0cf4adf9c228fdee63ae38207132
+
+maleFirst:
+  - Mimic
+femaleFirst:
+  - Mimic
+maleLast:
+  - Beacon
+femaleLast:
+  - Beacon

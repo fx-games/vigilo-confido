@@ -1331,6 +1331,9 @@ extraSprites:
 soldiers:
   - type: STR_SOLDIER_MIMIC
     armor: MIMIC_ARMOR
+    soldierNames:
+      - delete
+      - SoldierNames/mimicNames.nam
 
 
 units:

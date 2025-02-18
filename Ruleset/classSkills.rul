@@ -889,15 +889,6 @@ soldiers:
     kneelHeight: 14
     femaleFrequency: 50
     allowPromotion: true
-    nameInTitles: '{NAME}'
-    nameInTitlesLong: '{NAME} aka {CALLSIGN}'
-    nameInLists: '{NAME}'
-    nameInListsLong: '{NAME}{STATSTRING}'
-    nameInPilotLists: '{NAME}'
-    nameInBattleScape: '{CALLSIGN}{TAGSTRING}'
-    nameInBattleScapeAlternate: '{NAME}{STATSTRING}'
-    nameStatStringSeparator: /
-    nameTagStatStringSeparator: '>'
     soldierNames:               # extended *.nam file format allows for male & female callsigns
       - delete
       - SoldierNames/RangerNames/
@@ -968,15 +959,6 @@ soldiers:
     kneelHeight: 14
     femaleFrequency: 50
     allowPromotion: true
-    nameInTitles: '{NAME}'
-    nameInTitlesLong: '{NAME} aka {CALLSIGN}'
-    nameInLists: '{NAME}'
-    nameInListsLong: '{NAME}{STATSTRING}'
-    nameInPilotLists: '{NAME}'
-    nameInBattleScape: '{CALLSIGN}{TAGSTRING}'
-    nameInBattleScapeAlternate: '{NAME}{STATSTRING}'
-    nameStatStringSeparator: /
-    nameTagStatStringSeparator: '>'
     soldierNames:               # extended *.nam file format allows for male & female callsigns
       - delete
       - SoldierNames/GrenadierNames/
