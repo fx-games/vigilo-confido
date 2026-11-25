@@ -211,8 +211,7 @@ ufopaedia:
     type_id: 6
     section: STR_BASE_FACILITIES
     requires:
-      - STR_HYPER_WAVE_DECODER
+      - STR_HYPERWAVE_BEACON
     text: STR_HYPER_WAVE_DECODER_UFOPEDIA
 
   - delete: STR_HYPER_WAVE_DECODER
-

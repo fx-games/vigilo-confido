@@ -3973,20 +3973,23 @@ ufopaedia:
     requires:
       - STR_PSI_ARMOR
     text: STR_UFOPEDIA_PSI_ARMOR
-  - id: STR_POWER_SUIT_UC
-    listOrder: 10630
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_POWER_SUIT
-    text: STR_POWER_SUIT_UFOPEDIA
-  - id: STR_FLYING_SUIT_UC
-    listOrder: 10635
-    type_id: 5
-    section: STR_WEAPONS_AND_EQUIPMENT
-    requires:
-      - STR_FLYING_SUIT
-    text: STR_FLYING_SUIT_UFOPEDIA
+
+  - delete: STR_POWER_SUIT_UC # TODO implement hazmat/w.a.r. suit
+  - delete: STR_FLYING_SUIT_UC
+  # - id: STR_POWER_SUIT_UC
+  #   listOrder: 10630
+  #   type_id: 5
+  #   section: STR_WEAPONS_AND_EQUIPMENT
+  #   requires:
+  #     - STR_POWER_SUIT
+  #   text: STR_POWER_SUIT_UFOPEDIA
+  # - id: STR_FLYING_SUIT_UC
+  #   listOrder: 10635
+  #   type_id: 5
+  #   section: STR_WEAPONS_AND_EQUIPMENT
+  #   requires:
+  #     - STR_FLYING_SUIT
+  #   text: STR_FLYING_SUIT_UFOPEDIA
 
 extraStrings:
   - type: en-US

@@ -8,6 +8,10 @@ ufopaedia:
   - delete: STR_REAPER_AUTOPSY
   - delete: STR_LIGHTNING
   - delete: STR_AVENGER
+  - delete: STR_ALIEN_ORIGINS
+  - delete: STR_THE_MARTIAN_SOLUTION
+  - delete: STR_CYDONIA_OR_BUST
+  - delete: STR_MEDI_KIT
 
   - id: STR_SKULLJACK
     type_id: 4
@@ -113,6 +117,12 @@ ufopaedia:
     requires:
       - STR_ETHEREAL_AUTOPSY
     text: STR_PERSONAL_MIND_SHIELD_UFOPEDIA
+  - id: STR_MEDI_KIT
+    type_id: 4
+    section: STR_WEAPONS_AND_EQUIPMENT
+    requires:
+      - STR_INTRO_ENGINEERING
+    text: STR_MEDI_KIT_UFOPEDIA
   - id: STR_NANO_MEDI_KIT
     type_id: 4
     section: STR_WEAPONS_AND_EQUIPMENT
