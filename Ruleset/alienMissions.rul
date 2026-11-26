@@ -95,7 +95,7 @@ missionScripts:
     executionOdds: 100
     researchTriggers:
       STR_OUTSIDER_SHARD: true
-      STR_HYPERWAVE_DECODER: false
+      STR_HYPERWAVE_BEACON: false
     itemTriggers:
       STR_SKELETON_KEY: true
 
